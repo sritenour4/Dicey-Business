@@ -1,0 +1,17 @@
+.die {
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
