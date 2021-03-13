@@ -16,7 +16,7 @@ class Die {
     constructor() {
         this.div = document.createElement('div');
         this.value = document.createTextNode(counter);
-        this.rendor();                     
+        this.render();                     
         this.roll();
 
         // The push() method adds one or more elements to the end of an array and returns the new length of the array.
@@ -43,7 +43,7 @@ class Die {
         this.div.textContent = this.value;      
     }     
 
-    rendor() {
+    render() {
         this.div.className = 'die';
         this.div.id = counter;       
         this.div.appendChild(this.value); 
